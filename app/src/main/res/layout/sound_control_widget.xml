@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/bt_mute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="음소거"/>
+        <Button
+            android:id="@+id/bt_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="노래"/>
+        <Button
+            android:id="@+id/bt_youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="유튜브"/>
+    </LinearLayout>
+</LinearLayout >
+
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:background="?attr/appWidgetBackgroundColor"-->
+    <!--    android:padding="@dimen/widget_margin"-->
+    <!--    android:theme="@style/ThemeOverlay.SoundControl.AppWidgetContainer">-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/appwidget_text"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_centerVertical="true"-->
+    <!--        android:layout_margin="8dp"-->
+    <!--        android:background="?attr/appWidgetBackgroundColor"-->
+    <!--        android:contentDescription="@string/appwidget_text"-->
+    <!--        android:text="@string/appwidget_text"-->
+    <!--        android:textColor="?attr/appWidgetTextColor"-->
+    <!--        android:textSize="24sp"-->
+    <!--        android:textStyle="bold|italic" />-->
+    <!--</RelativeLayout>-->
